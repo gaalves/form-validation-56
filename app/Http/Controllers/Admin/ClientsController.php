@@ -29,6 +29,7 @@ class ClientsController extends Controller
     public function create()
     {
         //
+        return view('admin.clients.create');
     }
 
     /**
@@ -40,6 +41,7 @@ class ClientsController extends Controller
     public function store(Request $request)
     {
         //
+        Client::create($request->all());
     }
 
     /**

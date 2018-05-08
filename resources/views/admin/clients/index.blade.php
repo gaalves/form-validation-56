@@ -1,9 +1,9 @@
-@extends('layouts/layout')
+@extends('layouts.layout')
 @section('content')
-    <div class="container">
-        <h1>Listagem de Clientes</h1>
-        <br><br>
-        <table border="1">
+    <h1>Listagem de Clientes</h1>
+    <br><br>
+    <div class="table-responsive">
+        <table class="table table-striped">
             <thead>
             <tr>
                 <th>ID</th>
@@ -33,4 +33,5 @@
             </tbody>
         </table>
     </div>
+
 @endsection
