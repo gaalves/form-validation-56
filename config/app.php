@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'pt-BR',
 
     /*
     |--------------------------------------------------------------------------
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'pt-BR',
 
     /*
     |--------------------------------------------------------------------------
@@ -151,6 +151,7 @@ return [
          * Package Service Providers...
          */
 
+        LaravelLegends\PtBrValidator\ValidatorProvider::class,
         /*
          * Application Service Providers...
          */
